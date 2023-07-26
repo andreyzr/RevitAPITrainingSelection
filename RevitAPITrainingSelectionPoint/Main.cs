@@ -19,7 +19,18 @@ namespace RevitAPITrainingSelectionPoint
             UIDocument uidoc = uiapp.ActiveUIDocument;
             Document doc = uidoc.Document;
 
-            var pickedPoint = uidoc.Selection.PickPoint(ObjectSnapTypes.Endpoints, "Выберете точку");
+            XYZ pickedPoint = null;
+            try
+            {
+                pickedPoint = uidoc.Selection.PickPoint(ObjectSnapTypes.Endpoints, "Выберете точку");
+            }
+            catch (Autodesk.Revit.Exceptions.OperationCanceledException)
+            {}
+            if (pickedPoint == null)
+            {
+                return Result.Cancelled;
+            }
+            
             TaskDialog.Show("Point info", $"X: {pickedPoint.X}, Y: {pickedPoint.Y}, Z:{pickedPoint.Z}") ;
 
             return Result.Succeeded;
