@@ -19,7 +19,8 @@ namespace RevitAPITrainingSelection
             UIDocument uidoc = uiapp.ActiveUIDocument;
             Document doc = uidoc.Document;
 
-            IList<Reference> selectedElementRefList = uidoc.Selection.PickObjects(ObjectType.Element, new WallFilter(), "Выберете стены");
+            IList<Reference> selectedElementRefList = uidoc.Selection
+                .PickObjects(ObjectType.Element, new WallFilter(), "Выберете стены");
             var wallList = new List<Wall>();
 
             string info=string.Empty;

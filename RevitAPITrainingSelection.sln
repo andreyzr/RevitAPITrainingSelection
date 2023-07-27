@@ -13,6 +13,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITrainingSearchByCon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITrainingSearchByClass", "RevitAPITrainingSearchByClass\RevitAPITrainingSearchByClass.csproj", "{661DD284-1257-4CE0-BF57-2561F6BA3790}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITrainingSearchByType", "RevitAPITrainingSearchByType\RevitAPITrainingSearchByType.csproj", "{DF41B78F-432B-44A0-8E72-C32F3D818F76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITrainingSearchByCategory", "RevitAPITrainingSearchByCategory\RevitAPITrainingSearchByCategory.csproj", "{E7475AB0-0A3C-4B23-8C1D-622EBBB35BD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW2.1SearchForDucts", "HW2.1SearchForDucts\HW2.1SearchForDucts.csproj", "{1F0CD0F3-BE18-48A6-AD39-FC044C29B570}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW2.2Search_for_pipes_in_the_active_view", "HW2.2Search_for_pipes_in_the_active_view\HW2.2Search_for_pipes_in_the_active_view.csproj", "{B50A8BE7-371E-4CF0-9685-7A48BD252E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW2.3ColumnSearch", "HW2.3ColumnSearch\HW2.3ColumnSearch.csproj", "{3637037C-D77B-43CF-9862-CD9A7BEA0AAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW2.4Search_for_air_ducts_by_floor", "HW2.4Search_for_air_ducts_by_floor\HW2.4Search_for_air_ducts_by_floor.csproj", "{138F34AD-19AC-4E48-8B3F-43682CBC0105}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +51,30 @@ Global
 		{661DD284-1257-4CE0-BF57-2561F6BA3790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{661DD284-1257-4CE0-BF57-2561F6BA3790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{661DD284-1257-4CE0-BF57-2561F6BA3790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF41B78F-432B-44A0-8E72-C32F3D818F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF41B78F-432B-44A0-8E72-C32F3D818F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF41B78F-432B-44A0-8E72-C32F3D818F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF41B78F-432B-44A0-8E72-C32F3D818F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7475AB0-0A3C-4B23-8C1D-622EBBB35BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7475AB0-0A3C-4B23-8C1D-622EBBB35BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7475AB0-0A3C-4B23-8C1D-622EBBB35BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7475AB0-0A3C-4B23-8C1D-622EBBB35BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0CD0F3-BE18-48A6-AD39-FC044C29B570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0CD0F3-BE18-48A6-AD39-FC044C29B570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0CD0F3-BE18-48A6-AD39-FC044C29B570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0CD0F3-BE18-48A6-AD39-FC044C29B570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50A8BE7-371E-4CF0-9685-7A48BD252E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50A8BE7-371E-4CF0-9685-7A48BD252E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50A8BE7-371E-4CF0-9685-7A48BD252E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50A8BE7-371E-4CF0-9685-7A48BD252E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3637037C-D77B-43CF-9862-CD9A7BEA0AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3637037C-D77B-43CF-9862-CD9A7BEA0AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3637037C-D77B-43CF-9862-CD9A7BEA0AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3637037C-D77B-43CF-9862-CD9A7BEA0AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{138F34AD-19AC-4E48-8B3F-43682CBC0105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138F34AD-19AC-4E48-8B3F-43682CBC0105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138F34AD-19AC-4E48-8B3F-43682CBC0105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138F34AD-19AC-4E48-8B3F-43682CBC0105}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
