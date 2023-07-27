@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RevitAddIns>
   <AddIn Type="Command">
-    <Assembly>"C:\RevitAPITraining\RevitAPITrainingSelectionActive_view.dll"</Assembly>
+    <Assembly>"C:\RevitAPITraining\RevitAPITrainingSearchByConditions.dll"</Assembly>
     <AddInId>FAE7EF8E-23EA-4822-808B-5E9E9482AB1C</AddInId>
-    <FullClassName>RevitAPITrainingSelectionActive_view.Main</FullClassName>
+    <FullClassName>RevitAPITrainingSearchByConditions.Main</FullClassName>
     <VendorId>ADSK</VendorId>
     <Text>Выбор элементов</Text>
   </AddIn>
