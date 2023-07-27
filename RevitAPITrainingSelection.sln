@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITrainingSelectionPo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITrainingSelectionActive_view", "RevitAPITrainingSelectionActive_view\RevitAPITrainingSelectionActive_view.csproj", "{32D9DD48-62AD-41FA-A452-59F72A60577E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITrainingSelectionByClass", "..\RevitAPITrainingSelectionByClass\RevitAPITrainingSelectionByClass\RevitAPITrainingSelectionByClass.csproj", "{D246F4A1-F4CE-41A5-9B4E-0417EEE9B50E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITrainingSearchByConditions", "RevitAPITrainingSearchByConditions\RevitAPITrainingSearchByConditions.csproj", "{1FA92220-E175-48F7-91C0-AE0D5E79CC5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAPITrainingSearchByClass", "RevitAPITrainingSearchByClass\RevitAPITrainingSearchByClass.csproj", "{661DD284-1257-4CE0-BF57-2561F6BA3790}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,14 @@ Global
 		{32D9DD48-62AD-41FA-A452-59F72A60577E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32D9DD48-62AD-41FA-A452-59F72A60577E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32D9DD48-62AD-41FA-A452-59F72A60577E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D246F4A1-F4CE-41A5-9B4E-0417EEE9B50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D246F4A1-F4CE-41A5-9B4E-0417EEE9B50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D246F4A1-F4CE-41A5-9B4E-0417EEE9B50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D246F4A1-F4CE-41A5-9B4E-0417EEE9B50E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1FA92220-E175-48F7-91C0-AE0D5E79CC5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1FA92220-E175-48F7-91C0-AE0D5E79CC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FA92220-E175-48F7-91C0-AE0D5E79CC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FA92220-E175-48F7-91C0-AE0D5E79CC5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661DD284-1257-4CE0-BF57-2561F6BA3790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661DD284-1257-4CE0-BF57-2561F6BA3790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661DD284-1257-4CE0-BF57-2561F6BA3790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661DD284-1257-4CE0-BF57-2561F6BA3790}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
